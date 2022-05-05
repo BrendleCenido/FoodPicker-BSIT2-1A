@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FoodPicker",
+    "slug": "FoodPicker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/FoodPicker-icon.jpg",
+    "splash": {
+      "image": "./assets/Splash-Welcome.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#184e77"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/FoodPicker-icon.jpg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.FoodPicker.bsit21a"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
